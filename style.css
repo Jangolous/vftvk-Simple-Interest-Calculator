@@ -1,28 +1,23 @@
 body {
-    background-color: black;
-    align-items: center;
-    color: black;
-    font-family: Verdana;
-    }
-    
-      form {
-    margin: auto;
-    background-color: white;
-    align-items: center;
-    border-radius: 25px;
-    padding: 30px;
-    width: 500px;
-    height: 250px;
-    }
-    
-    div {
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-    }
-      
-    h1{
-      font-size: 32px;
-      color: grey;
-      text-align: center;
-      }
+  background-color: black;
+  align-items: center;
+  color: black;
+  font-family: Arial;
+}
+
+.maindiv {
+  background-color: white;
+  color: black;
+  width: 300px;
+  padding: 20px;
+  border-radius: 25px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  font-size: 32px;
+  color: grey;
+  text-align: center;
+  font-family: verdana;
+}
