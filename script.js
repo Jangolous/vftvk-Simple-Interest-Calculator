@@ -2,7 +2,7 @@
 function validate(){
     var amount = document.getElementById("principal");
     
-    if(amount.value <= 0){
+    if(amount.value <= 1){
           alert("Enter a positive number");
           amount.focus();
           return false;
