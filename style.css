@@ -8,12 +8,45 @@ body {
 .maindiv {
   background-color: white;
   color: black;
-  width: 300px;
-  padding: 20px;
+  width: 500px;
+  height: 250px;
+  padding: 25px;
   border-radius: 25px;
-  margin-left: auto;
-  margin-right: auto;
+  align-items: center;
 }
+
+div2 {
+  margin-left: 100px;
+  word-spacing: 54px;
+}
+
+divi2 {
+  word-spacing: 18px;
+}
+
+div3 {
+  line-height: 3;
+  margin-left: 100px;
+  display: block;
+}
+
+divi4 {
+  word-spacing: 20px;
+}
+
+p {
+  display: inline;
+}
+
+div4 {
+  margin-left: 100px;
+}
+
+button {
+  margin-left: 100px;
+}
+
+mark {}
 
 h1 {
   font-size: 32px;
@@ -21,3 +54,4 @@ h1 {
   text-align: center;
   font-family: verdana;
 }
+
