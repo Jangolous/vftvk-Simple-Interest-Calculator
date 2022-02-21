@@ -2,19 +2,10 @@
 function validate(){
     let amount = document.getElementById("principal");
     
-    if(amount.value >= 0){
+    if(amount.value <= 0){
           alert("Enter a positive number");
           amount.focus();
           return false;
-    }
-    if(amount.value == ""){
-        alert("Enter a positive number");
-        amount.focus();
-        return false;
-  }
-   alert("Form validation is successful.")
-    return true;
-  }
 //We declare variables
   var principal = document.getElementById("principal").value;
   var rate = document.getElementById("rate").value;
