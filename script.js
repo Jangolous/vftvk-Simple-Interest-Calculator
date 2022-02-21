@@ -4,6 +4,9 @@ function updateRate()
     var rateval = document.getElementById("rate").value;
     document.getElementById("rate_val").innerText=rateval;
 }
+function highlight(text){
+var inputText = document.getElementByClass()
+}
 //This is the function to compute the interest with the input
 function compute() {
   var principal = document.getElementById("principal").value;
@@ -12,20 +15,15 @@ function compute() {
   var interest = principal * years * rate / 100;
   var year = new Date().getFullYear() + parseInt(years);
 
+if (principal< 1) {
+    alert("Enter a positive number");
+    principal.focus();
+    return true;
+  }
+  
   document.getElementById("result").innerHTML = "If you deposit " + principal + ",\<br\>at an interest rate of " + rate + "%\<br\>You will receive an amount of " + interest + ",\<br\>in the year " + year + "\<br\>"
 }
 //This function checks if there is a valid input for the principal variable
-function checkData() {
-if (principal.value >= 0) {
-    alert("Enter a positive number");
-    principal.focus();
-    return false;
-  }
-if (principal.value == "") {
-    alert("Enter a positive number");
-    principal.focus();
-    return false;
-  }
+
   
-  return true;
-  }
+ 
