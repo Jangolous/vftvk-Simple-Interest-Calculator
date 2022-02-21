@@ -16,7 +16,7 @@ function validate() {
     return false;
   }
   //This is the structure for the result displayed to the user
-  document.getElementById("result").innerHTML = "If you deposit <mark>" + principal + "</mark>,\<br\>at an interest rate of <mark>" + rate + "%</mark>.\<br\>You will receive an amount of <mark>" + interest + "</mark>,\<br\>in the year <mark>" + year + "</mark>\<br\>"
+  document.getElementById("result").innerHTML = "If you deposit <mark>" + principal + "</mark>,\<br\>at an interest rate of <mark>" + rate + "%</mark>.\<br\>You will receive an amount of <mark>" + interest + "</mark>,\<br\>in the year <mark>" + year + "</mark>\<br\\<br\>"
 }
 
 //This is the function to show the selected rate on the screen
