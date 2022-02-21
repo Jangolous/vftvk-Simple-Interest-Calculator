@@ -7,9 +7,7 @@ function validate(){
           amount.focus();
           return false;
     } else {
-        function compute() {
-            document.getElementById("result").innerHTML = "If you deposit " + principal + ",\<br\>at an interest rate of " + rate + "%\<br\>You will receive an amount of " + interest + ",\<br\>in the year " + year + "\<br\>"
-          }
+        
   }
   
 //We declare variables
@@ -26,4 +24,6 @@ function updateRate()
     document.getElementById("rate_val").innerText=rateval;
 }
 //This is the function to compute the interest with the input
-
+function compute() {
+            document.getElementById("result").innerHTML = "If you deposit " + principal + ",\<br\>at an interest rate of " + rate + "%\<br\>You will receive an amount of " + interest + ",\<br\>in the year " + year + "\<br\>"
+          }
