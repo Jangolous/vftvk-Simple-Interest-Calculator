@@ -8,7 +8,7 @@ function validate(){
           return false;
     }
     if(amount.value == ""){
-        alert("Enter a positive number");s
+        alert("Enter a positive number");
         amount.focus();
         return false;
   }
