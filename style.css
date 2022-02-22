@@ -8,9 +8,8 @@ body {
 .maindiv {
   background-color: white;
   color: black;
-  width: 500px;
-  height: auto;
-  padding: 14px;
+  width: 540px;
+  padding: 8px;
   border-radius: 25px;
   margin-left: auto;
   margin-right: auto;
@@ -55,11 +54,11 @@ p4 {
 h1 {
   font-size: 32px;
   color: grey;
-  text-align: center;
+  margin-left: 20px; 
   font-family: verdana;
   padding-bottom: 20px;
 }
 
 footer {
-  padding-top: 2px;
+  margin-left: 20px; 
 }
