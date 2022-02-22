@@ -57,7 +57,9 @@ h1 {
   color: grey;
   text-align: center;
   font-family: verdana;
-  margin-top: 25px;
-  line-height: 60px;
+  padding-bottom: 20px;
 }
 
+footer {
+  padding-top: 2px;
+}
